@@ -17,7 +17,7 @@ app = Flask(__name__)
 # database connection
 app.config['MONGODB_SETTINGS'] = {
     'db':'library_database',
-    'host': 'mongodb+srv://meghanshu16:Meghanshu16@cluster0.ueg76n1.mongodb.net/library_database?retryWrites=true&w=majority',
+    'host': 'Paste URI here',
 }
 db = MongoEngine()
 db.init_app(app)
