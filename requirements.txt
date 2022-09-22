@@ -1,0 +1,4 @@
+flask
+flask_mongoengine
+mongoengine
+pandas
